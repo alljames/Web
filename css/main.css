@@ -1966,7 +1966,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .social-icon {
 	color: white;
-	padding: 1rem 1rem 1rem 1rem
+	padding: 0.8rem 0.8rem 0.8rem 0.8rem
 }
 
 .fa:hover {
