@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #6FB3AC;
+    color: #00AFAA;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1744,7 +1744,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     min-height: 786px;
-    background-color: transparent;
+    background-color: #00263E;
     position: relative;
     display: table;
 }
@@ -1769,13 +1769,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .6;
-    background-color: #000000;
+    background-color: #00263E;
 }
 
 .no-js .s-home {
-    background: #000000;
+    background: #00263E;
 }
 
+.logo{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home content
@@ -1800,6 +1806,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
     margin-bottom: 1.2rem;
     margin-left: 6px;
+    text-align: center;
 }
 
 .home-content h1 {
@@ -1808,15 +1815,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .home-content__main {
-    padding-top: 24rem;
+    /*padding-top: 24rem;*/
     position: relative;
 }
 
 .home-content__buttons {
-    text-align: left;
+    text-align: center;
 }
 
 .home-content__buttons .btn {
@@ -2061,6 +2069,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
         font-size: 6rem;
+        text-align: center;
     }
     .home-content__main {
         max-width: 1000px;
@@ -2070,6 +2079,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1200px) {
     .home-content h1 {
         font-size: 5.5rem;
+        text-align: center;
     }
     .home-content__main {
         max-width: 800px;
@@ -2079,12 +2089,13 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1000px) {
     .home-content h1 {
         font-size: 4.6rem;
+        text-align: center;
     }
     .home-content br {
         display: none;
     }
     .home-content__main {
-        padding-top: 21rem;
+        /*padding-top: 21rem*/
         padding-right: 80px;
         max-width: 680px;
     }
@@ -2093,9 +2104,11 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 800px) {
     .home-content h3 {
         font-size: 1.5rem;
+        text-align: center;
     }
     .home-content h1 {
         font-size: 4rem;
+        text-align: center;
     }
     .home-content__main {
         padding-right: 70px;
@@ -2130,6 +2143,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 600px) {
     .home-content h1 {
         font-size: 3.8rem;
+        text-align: center;
     }
     .home-social {
         right: 2rem;
@@ -2158,11 +2172,12 @@ html.no-csstransitions .home-content__main {
     }
     .home-content h1 {
         font-size: 3.5rem;
+        text-align: center;
     }
     .home-content__main {
         text-align: center;
         max-width: none;
-        padding-top: 15rem;
+        /*padding-top: 15rem;*/
         padding-right: 25px;
         width: 85%;
     }
@@ -2181,6 +2196,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
+        text-align: center;
     }
 }
 
@@ -2190,6 +2206,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-content h1 {
         font-size: 3.2rem;
+        text-align: center;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -2738,7 +2755,7 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     color: #757575;
     position: relative;
 }
@@ -3342,7 +3359,8 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: #FFFFFF;
+    background-color: #00AFAA;
 }
 
 footer h4 {
@@ -3358,7 +3376,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #6FB3AC;
+    color: #FFFFFF;
 }
 
 footer .row {
