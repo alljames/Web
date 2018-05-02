@@ -1,12 +1,18 @@
-# CLOUD NATIVE WALES: Web
+# CLOUD NATIVE WALES: Web || BRODORION Y CWMWL CYMRU: WE
 
-## Join Us
+## Join Us || Ymunwch â ni
 
 We're in the process of starting up a Cloud Native community in Wales.
 
-If you want to be a part of it please contact us via [twitter (Eng)](https://twitter.com/cloudnativewal), [twitter (Cym)](https://twitter.com/cloudnativecym) or [email](mailto:info@cloudnativewales.io).
+*Rydym ni wrthi'n sefydlu cymuned 'Cloud Native' yng Nghymru.*
+
+If you want to be a part of it please contact us via [twitter](https://twitter.com/cloudnativewal) [email](mailto:info@cloudnativewales.io).
+
+*Os hoffech chi ymuno â ni mae croeso i chi gael gafael arnom ni drwy [twitter](https://twitter.com/cloudnativewal) [ebost](mailto:info@cloudnativewales.io).*
 
 If you have a passion to teach, share, help and/or learn then we're going to get along just fine!
+
+*Os ydych chi'n frwdfrydig am ddysgu, addysgu, rhannu eich gwybodaeth neu i gynnig cymorth byddwn ni'n hapus i glywed o chi!*
 
 ## Docker
 
