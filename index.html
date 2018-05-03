@@ -70,17 +70,37 @@
         data-natural-height=2000 data-position-y=center>
         <div class="home-content">
             <div class="row home-content__main">
-                <img class="logo" src="images/logo.png" alt="CloudNativeWales">
-                <h3>Welcome to Cloud Native Wales</h3>
-                <h1>
-                    A group dedicated to helping
-                    <br> developers, communities & organisations with
-                    <br> Cloud Native platforms
-                    <br>
-                </h1>
+                    <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                        <TD>
+                                    <img class="logo" src="images/logo.png" alt="CloudNativeWales">
+                                    <h3>Welcome to Cloud Native Wales</h3>
+                        </TD>
+                        <TD>
+                                    <img class="logo" src="images/logo-cymraeg.png" alt="CloudNativeWales">
+                                    <h3>Croeso i hafan Brodorion y Cwmwl Cymru</h3>
+                        </TD>
+                    </TABLE>
+        </div>
+                <div class="row home-content__main">
+                        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                                <h1>
+                                    A group dedicated to helping
+                                    developers, communities &amp; organisations with
+                                    Cloud Native platforms
+                                </h1>
+                            </TD>
+                            <TD>
+                                <h1>
+                                    Grwp sy'n gweithio er budd <!-- font doesn't seem to support the ŵ in 'grŵp'-->
+                                    datblygwyr, cymunedau a sefydliadau i
+                                    ddefnyddio platfformau 'Cloud Native'
+                                </h1>
+                            </TD>
+                        </TABLE>
+
                 <div class="home-content__buttons">
                     <a href="#AboutUs" class="smoothscroll btn btn--stroke">
-                        About Us
+                        About Us || Amdanom Ni
                     </a>
                     <a class="btn btn--stroke" href="https://twitter.com/cloudnativewal" target="_blank">
                         <i class="fa fa-twitter fa-2x social-icon" aria-hidden="true"></i>
@@ -98,7 +118,7 @@
     <section id="AboutUs" class="s-clients">
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Team</h3>
+                <h3 class="subhead">Team || Tîm</h3>
             </div>
         </div>
         <div class="row clients-testimonials" data-aos="fade-up">
@@ -106,7 +126,7 @@
                 <div class="testimonials">
                     <div class="testimonials__slide">
                         <p>Lewis considers himself a regular developer who wants to change the World a single microservice at
-                            a time. He has worked extensively with Docker & Kubernetes and has helped a number of clients
+                            a time. He has worked extensively with Docker &amp; Kubernetes and has helped a number of clients
                             start their cloud native journey. He is a cloud native journeyman!</p>
                         <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
@@ -124,11 +144,22 @@
                             <span class="testimonials__pos">Co-founder, CloudNativeWales</span>
                         </div>
                     </div>
+                    <div class="testimonials__slide">
+                        <p>Aled is a recent Masters CS graduate who wrote his thesis on Kubernetes scheduling policies and 
+                            currently works as a Research Associate at the University of Bristol. He was sorely 
+                            tempted to translate Cloud Native Wales as 'Pobol y Cwmwl'.</p>
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Aled James</span>
+                            <span class="testimonials__pos">Co-organiser, CloudNativeWales</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <footer>
+        <!-- ENGLISH -->
         <div class="row footer-main">
             <div class="col-six tab-full left footer-desc">
                 <img class="logo" src="images/logo-footer.png" alt="CloudNativeWales">
@@ -137,6 +168,18 @@
                 <h4>Get In Touch</h4>
                 <p>If you would like to start going cloud native, please get in touch with us at
                     <a href="mailto:info@cloudnativewales.com">info@cloudnativewales.com</a>
+                </p>
+            </div>
+        </div>
+        <!-- CYMRAEG -->
+        <div class="row footer-main">
+            <div class="col-six tab-full left footer-desc">
+                <img class="logo" src="images/logo-footer-cymraeg.png" alt="CloudNativeWales">
+            </div>
+            <div class="col-six tab-full right footer-subscribe">
+                <h4>Cysylltwch â ni</h4>
+                <p>Os hoffech chi ddod yn un o frodorion y Cwmwl, cysylltwch â ni ar <!-- (h.y. dod yn drigolyn Cwmwlderi) -->
+                        <a href="mailto:info@cloudnativewales.com">info@cloudnativewales.com</a>
                 </p>
             </div>
         </div>
