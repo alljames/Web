@@ -6,9 +6,9 @@ We're in the process of starting up a Cloud Native community in Wales.
 
 *Rydym ni wrthi'n sefydlu cymuned 'Cloud Native' yng Nghymru.*
 
-If you want to be a part of it please contact us via [twitter](https://twitter.com/cloudnativewal) [email](mailto:info@cloudnativewales.io).
+If you want to be a part of it please contact us via [twitter](https://twitter.com/cloudnativewal) or [email](mailto:info@cloudnativewales.io).
 
-*Os hoffech chi ymuno â ni mae croeso i chi gael gafael arnom ni drwy [twitter](https://twitter.com/cloudnativewal) [ebost](mailto:info@cloudnativewales.io).*
+*Os hoffech chi ymuno â ni mae croeso i chi gael gafael arnom ni drwy [twitter](https://twitter.com/cloudnativewal) neu [ebost](mailto:info@cloudnativewales.io).*
 
 If you have a passion to teach, share, help and/or learn then we're going to get along just fine!
 
